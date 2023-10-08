@@ -21,8 +21,10 @@ form input {
   margin: 2px;
   border-radius: 10px;
   color: white;
+  text-shadow: 2px 3px 4px #ccc;
   font-weight: bolder;
   cursor: pointer;
+  box-shadow: 2px 3px 4px #ccc;
 }
 form input[type="button"]:hover {
   background-color: deepskyblue;
@@ -40,5 +42,5 @@ form .display input{
   background-color:darkslategray;
 }
 form input.equal {
-  width: 120px;
+  width: 122px;
 }
